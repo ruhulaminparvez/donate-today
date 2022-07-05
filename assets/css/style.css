@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url("../images/donation1.jpg") center/cover no-repeat fixed;
+    height: 669px;
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.9;
+}
+
+.hero-title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.hero-para {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn {
+    background: #FF5959;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 3px;
+}
+
+.donate-section {
+    background: #FFF;
+    margin-top: 8%;
+    text-align: center;
+}
+
+
