@@ -182,3 +182,66 @@ body {
     margin-top: 8%;
     text-align: center;
 }
+
+.box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    background-color: rgba(255, 166, 0, 0.452);
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.box input {
+    font-size: 20px;
+    width: 60%;
+    border: none;
+    padding: 15px 20px;
+    outline: none;
+    margin: 0;
+    border-radius: 5px;
+    background: #EFEFEF;
+}
+
+.box button {
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 15px 20px;
+    margin: 0;
+    border-radius: 5px;
+    background-color: #FF5959;
+}
+
+.update {
+    margin-bottom: 7%;
+}
+
+.footer-section {
+    height: 177px;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+}
+
+.footer h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 3%;
+    
+}
+
+.footer p {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#humble {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #e47979;
+}
