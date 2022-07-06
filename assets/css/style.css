@@ -72,7 +72,7 @@ body {
 }
 
 .money {
-    height: 123px;
+    height: 83px;
     width: 135px;
     background-color: aliceblue;
     font-size: 30px;
@@ -82,6 +82,7 @@ body {
     margin: 5px;
     position: relative;
     border-radius: 5px;
+    padding-top: 3%;
 }
 
 #active {
@@ -192,6 +193,7 @@ body {
     background-color: rgba(255, 166, 0, 0.452);
     border-radius: 10px;
     padding: 3%;
+    margin-top: 10%;
 }
 
 .box input {
