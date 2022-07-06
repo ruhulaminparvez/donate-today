@@ -146,6 +146,11 @@ body {
     font-weight: 600;
 }
 
+.news-card a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
 
 .donate-plan {
     margin-top: 8%;
