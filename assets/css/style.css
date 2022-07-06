@@ -111,6 +111,42 @@ body {
     outline: none;
 }
 
+.situation-section {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.news-cards {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.news-card {
+    width: 800px;
+    height: 400px;
+    border: solid #BDBDBD 1px; 
+	box-shadow: 5px 5px 20px rgba(240, 180, 180, 0.356)  ; 
+    background-color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+    background: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.news-card img {
+    width: 400px;
+    height: 300px;
+}
+
+.news-card h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+
 .donate-plan {
     margin-top: 8%;
     text-align: center;
